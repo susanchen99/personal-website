@@ -14,7 +14,7 @@ html {
     justify-content: space-between;
     position: fixed;
     top: 45%;
-    left: 96%;
+    left: 97%;
     transform: translateY(-50%);
 }
 
@@ -23,10 +23,10 @@ html {
 .circle {
     width: auto;
     max-height: 100%;
-    margin-top: 150%;
+    margin-top: 90%;
     border: 2px solid #5A5A5A;
     border-radius: 50%;
-    padding: 200%;
+    padding: 80%;
 }
 
 .circle:hover {
