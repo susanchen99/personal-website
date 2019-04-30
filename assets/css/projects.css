@@ -1,0 +1,115 @@
+#projects {
+    position: absolute;
+    top: 200%;
+    bottom: -200%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 100%;
+    min-width: 100%;
+
+    width: 100%;
+    height: auto;
+}
+
+#projects-title {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    left: 5%;
+    top: 190%;
+    color: #ffffff;
+    font-size: 80px;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    align-content: center;
+    left: 4%;
+    top: 220%;
+    width: 85%;
+  }
+
+  
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    margin: 2%;
+
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+#overlay {
+    background: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	z-index: 2;
+	top: 0px;
+	left: 0px;
+}
+
+#close {
+	color: white;
+	font: 36px/100% arial, sans-serif;
+  	position: fixed;
+	right: 20px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	top: 20px;
+	z-index: 3;
+}
+
+.large-image {
+    max-width: 45%;
+    height: auto;
+    position: fixed;
+	z-index: 3;
+	top: 18%;
+	left: 5%;
+}
+
+
+
+.title {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+	z-index: 3;
+    left: 55%;
+    color: #ffffff;
+    font-size: 80px;
+}
+
+
+.description {
+    font-family: 'Open Sans';
+    position: fixed;
+	z-index: 3;
+	top: 26%;
+    left: 55%;
+    right: 5%;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+

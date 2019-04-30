@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/projects.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.typekit.net/omh3ymt.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+<body>
+    <div id= "content">
+            <section class="home">
+                <div id="home" style="background-image:url(assets/img/bridge.jpg)"></div>
+                <p id = "hello"> hello, i'm </p>
+                <p id = "susan"> <b>—</b>SUSAN CHEN<b>—</b> </p>
+            </section>
+                
+            <section class="about">
+                <div id="about" style="background-image:url(assets/img/light.png)"></div>
+                <img id="photo" src="assets/img/img1.jpg">
+                <p id = "about-title"> about </p>
+                <p id = "about-text"> I’m a second year undergraduate student at UC Berkeley studying electrical engineering and computer science.
+                     In my free time, I enjoy traveling to new places on my skateboard, dancing, and eating delicious food. 
+                     Feel free to <a id = "link" href="#contact">contact</a> me or check out my <a id="link" href="assets/Susan Chen Resume.pdf" target="_blank">resume</a> to learn more!
+                    </p>
+            </section>
+
+            
+            <section class="projects">
+                <div id="projects" style="background-image:url(assets/img/dark.png)"></div>
+                <p id = "projects-title"> projects </p>
+                <div class="row">
+                    <div class="item">
+                        <img class="image" id="bearmaps-preview" src="assets/img/bearmaps2.png">
+                        <!-- <p id = "text"> bearmaps </p> -->
+                    </div>
+                    <div class="item">
+                        <img class="image" id="spotify-preview" src="assets/img/spotify.png">
+                        <!-- <p id = "text"> spotify </p> -->
+                    </div>
+                </div>
+
+                
+            </div>
+                
+
+            </section>
+
+            <section class="contact">
+                <div id="contact" style="background-image:url(assets/img/light.png)"></div>
+                <p id = "contact-title"> contact </p>
+                <div id="icons-container">
+                    <img class="icons" src="assets/img/Image 5@2x.png">
+                    <img class="icons" src="assets/img/Image 4@2x.png">
+                    <img class="icons" src="assets/img/Image 3@2x.png">
+                    <img class="icons" src="assets/img/Image 1@2x.png">
+                </div>
+                <div id="text-container">
+                    <a class = "contact-text" href="mailto:susanchen@berkeley.edu" target="_blank"> susanchen@berkeley.edu </a>
+                    <a class = "contact-text" href="tel:+19259678876" target="_blank"> (925) 967-8876 </a>
+                    <a class = "contact-text" href="https://www.linkedin.com/in/susanchen99/" target="_blank"> LinkedIn </a>
+                    <a class = "contact-text" href="https://github.com/susanchen99" target="_blank"> Github </a>
+                </div>
+            </section>
+
+    </div>
+    <nav id = "nav-bar">
+        <a class = "circle" id="c1" href="#home"></a>
+        <a class = "circle" id="c2" href="#about"></a>
+        <a class = "circle" id="c3" href="#projects"></a>
+        <a class = "circle" id="c4" href="#contact"></a>
+    </nav>
+
+    <div id="lightbox">
+        <div id="overlay"></div>
+        <div id="close">X</div>
+        <div id="bearmaps">
+            <img class = "large-image" src="assets/img/bearmaps2.png">
+                <p class = "title"> bearmaps </p>
+                <p class = "description"> Created maps by rastering downloaded image tiles and map data, with support for scrolling, zooming, and route finding. <br>
+                        Applied Dijkstra’s and A* algorithms for pathing, used Tries to implement autocompletion of search terms. </p>
+        </div>
+            
+        <div id="spotify">
+                <img class = "large-image" src="assets/img/spotify.png">
+                <p class = "title"> spotify </p>
+                <p class = "description"> Developed and trained a model based on musical features taken from a likes playlist and a dislikes playlist. <br>
+                        Used the model on a new playlist to recommend songs that the user is likely to enjoy. </p>
+            </div>
+    </div>
+
+
+
+</body>
+<script src="assets/imakewebthings-waypoints-34d9f6d/lib/noframework.waypoints.min.js"></script>
+<script src="assets/imakewebthings-waypoints-34d9f6d/lib/jquery.waypoints.min.js"></script>
+<script src="assets/imakewebthings-waypoints-34d9f6d/lib/shortcuts/inview.min.js"></script>
+<script src="assets/js/script.js"></script>
+</html>
+
+
+
+    
